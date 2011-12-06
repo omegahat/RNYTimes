@@ -1,0 +1,7 @@
+0.1-1
+
+   *  in searchArticles(), return the value from 'fromJSON()', rather than its field 'results'
+      which does not exist.
+
+
+

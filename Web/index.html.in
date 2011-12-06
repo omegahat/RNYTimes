@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<link rel="stylesheet" href="../OmegaTech.css"/>
+<title>@PKG_NAME@</title>
+</head>
+
+
+<body>
+<h1>@PKG_NAME@</h1>
+<p align=right><a href="@TAR_FILE@">@TAR_FILE@</a> (@DATE@)</p>
+
+<p>
+This package  provides  interfaces to several of the New York Times
+Web services for searching articles, meta-data, user-generated content
+and best seller lists.
+
+<h2>Software</h2>
+
+This package makes use of the <a href="../RSXML">XML</a> package, <a href="../RCurl">RCurl</a> package and 
+<a href="../RJSONIO">RJSONIO</a> package.
+
+
+
+<hr>
+<address><a href="http://www.stat.ucdavis.edu/~duncan">Duncan Temple Lang</a>
+<a href=mailto:duncan@wald.ucdavis.edu>&lt;duncan@wald.ucdavis.edu&gt;</a></address>
+<!-- hhmts start -->
+Last modified: Sat Jul 25 21:16:57 PDT 2009
+<!-- hhmts end -->
+</body> </html>

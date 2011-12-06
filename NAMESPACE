@@ -1,0 +1,8 @@
+import(XML)
+import(RJSONIO)
+import(RCurl)
+
+export(getBestSellerCategories, getBestSellers,  newswire,  searchArticles,   nyTags, community)
+
+
+exportClasses(URLx, review, book_detail, book_details, reviews, book, news_item)
