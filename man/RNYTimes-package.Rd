@@ -48,6 +48,4 @@ NY Times developer page
 
 \keyword{ package }
 %\seealso{}
-\examples{
-
-}
+%\examples{}

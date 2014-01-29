@@ -41,8 +41,7 @@ rank, list_name, bestsellers_date, published_date, weeks_on_list, rank_last_week
 Duncan Temple Lang
 }
 
-\seealso{
-}
+%\seealso{}
 \examples{
 if("NYTimesAPI" \%in\% names(options()) && "Best Sellers" \%in\% names(options("NYTimes"))) {
 

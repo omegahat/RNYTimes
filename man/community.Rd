@@ -15,9 +15,7 @@ community(what = "recent", match = "exact-match", ..., key = getOption("NYTimesA
   \item{\dots}{additional name=value pairs passed to the Web service request}
   \item{key}{the NY Times API key to access to the service}
 }
-\value{
-
-}
+%\value{}
 \references{
 \url{http://developer.nytimes.com/docs/community_api}
 }
@@ -26,7 +24,5 @@ Duncan Temple Lang
 }
 
 %\seealso{}
-\examples{
-
-}
+%\examples{}
 \keyword{IO}

@@ -83,8 +83,7 @@ function(query, begin_date = NA, end_date = NA, ..., key = getOption("NYTimesAPI
   args[['api-key']] = key
      
   ans = getForm("http://api.nytimes.com/svc/search/v1/article", .params = args)
- 
-# library(RJSONIO)
+
  fromJSON(ans) # $results
 }
 

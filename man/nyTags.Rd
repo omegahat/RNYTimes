@@ -33,7 +33,7 @@ Duncan Temple Lang
 }
 
 
-\seealso{}
+%\seealso{}
 \examples{
 if("NYTimesAPI" \%in\% names(options()) && "Tags" \%in\% names(options("NYTimes"))) {
   nyTags("climate")

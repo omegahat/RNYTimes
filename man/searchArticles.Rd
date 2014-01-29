@@ -30,7 +30,7 @@ Duncan Temple Lang
 }
 
 
-\seealso{}
+%\seealso{}
 \examples{
 if("NYTimesAPI" \%in\% names(options()) && "Article Search" \%in\% names(options("NYTimes")))  {
   searchArticles("title:bailout", begin_date = "20081001",

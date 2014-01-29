@@ -56,10 +56,6 @@ No methods defined with class "book" in the signature.
  Duncan Temple Lang
 }
 
-\seealso{
-
-}
-\examples{
-
-}
+%\seealso{}
+%\examples{}
 \keyword{classes}
