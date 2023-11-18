@@ -65,7 +65,7 @@ function(query, begin_date = NA, end_date = NA, ..., key = getOption("NYTimesAPI
   }
 
   args = list(...)
-  args$query = paste(query, collapse = " ")
+  args$q = paste(query, collapse = " ")
 
   if(length(fields))
       args$fields = paste(fields, collapse = ",")
@@ -82,7 +82,7 @@ function(query, begin_date = NA, end_date = NA, ..., key = getOption("NYTimesAPI
   }
   args[['api-key']] = key
      
-  ans = getForm("http://api.nytimes.com/svc/search/v1/article", .params = args)
+  ans = getForm("http://api.nytimes.com/svc/search/v2/articlesearch.json", .params = args)
 
  fromJSON(ans) # $results
 }
